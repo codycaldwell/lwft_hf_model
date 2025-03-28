@@ -2,3 +2,4 @@ transformers
 numpy
 datasets
 peft
+pandas
