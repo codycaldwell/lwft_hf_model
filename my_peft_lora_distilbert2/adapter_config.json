@@ -3,7 +3,6 @@
   "auto_mapping": null,
   "base_model_name_or_path": "distilbert-base-uncased",
   "bias": "none",
-  "corda_config": null,
   "eva_config": null,
   "exclude_modules": null,
   "fan_in_fan_out": false,
@@ -27,11 +26,10 @@
   "rank_pattern": {},
   "revision": null,
   "target_modules": [
-    "v_lin",
-    "q_lin"
+    "q_lin",
+    "v_lin"
   ],
   "task_type": "SEQ_CLS",
-  "trainable_token_indices": null,
   "use_dora": false,
   "use_rslora": false
 }
